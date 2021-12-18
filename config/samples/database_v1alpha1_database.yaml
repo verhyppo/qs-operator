@@ -1,0 +1,10 @@
+apiVersion: database.verhyppo.github.io/v1alpha1
+kind: Database
+metadata:
+  name: database-sample
+spec:
+  foo: bar
+  complexObject:
+    username: test
+    password: test
+  # Add fields here

@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Database Operator Debug",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/main.go",
+            "env": {
+                "WATCH_NAMESPACE": "default",
+                "PG_PORT": "5432",
+                "SSL_MODE": "disable",
+                "PG_PASSWORD": "r581qeT3gO",
+                "PG_USERNAME": "postgres",
+                "PG_HOST": "localhost"
+            },
+            "args": []
+        }
+    ]
+}
